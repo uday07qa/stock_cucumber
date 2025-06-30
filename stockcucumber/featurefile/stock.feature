@@ -20,6 +20,7 @@ And wait for logout button with "xpath" and "//li[@id='mi_logout']" amd "10"
 And  click on the logout button with "xpath" and "//li[@id='mi_logout']"
 And close the browser 
 
+
 @multiple
 Scenario Outline:
 Given lanch browser

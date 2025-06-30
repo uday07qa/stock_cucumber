@@ -11,7 +11,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 features= {"featurefile"},
 glue = {"stepDefination"},
         plugin = {"pretty","html:target/report/cucumber",
-        		"junit:target/report/cucumber.xml","json:target/report/cucumber.json"})
+        		"junit:target/report/cucumber.xml",
+        		"json:target/report/cucumber.json"})
         		                                                        
 
 public class AppTest extends AbstractTestNGCucumberTests{
